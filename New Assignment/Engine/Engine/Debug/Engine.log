@@ -1,3 +1,11 @@
-﻿  inputclass.cpp
+﻿  systemclass.cpp
+  inputclass.cpp
+  graphicsclass.cpp
+e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(52): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(108): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...
   Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.exe
   Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.pdb (Full PDB)
