@@ -49,6 +49,8 @@ public:
 	bool IsZPressed();
 	bool IsPgUpPressed();
 	bool IsPgDownPressed();
+	bool isAPressed();
+	bool isDPressed();
 
 private:
 	bool ReadKeyboard();

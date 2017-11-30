@@ -326,7 +326,13 @@ bool GraphicsClass::HandleMovementInput(float frameTime)
 	m_Position->LookUpward(keyDown);
 
 	keyDown = m_Input->IsPgDownPressed();
-	m_Position->LookDownward(keyDown);
+	m_Position->LookDownward(keyDown); 
+
+	keyDown = m_Input->IsAPressed();
+	m_Position->MoveLeft(keyDown);
+
+	keyDown = m_Input->IsDownPressed();
+	m_Position->MoveRight(keyDown);
 
 	// Get the view point position/rotation.
 	m_Position->GetPosition(posX, posY, posZ);

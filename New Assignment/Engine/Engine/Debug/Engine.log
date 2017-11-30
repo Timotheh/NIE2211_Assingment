@@ -1,11 +1,27 @@
 ﻿  systemclass.cpp
-  inputclass.cpp
-  graphicsclass.cpp
-e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(52): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
-e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(108): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
-  Generating Code...
-  Compiling...
+  positionclass.cpp
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(120): error C2039: 'Moveleft': is not a member of 'PositionClass'
+  c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.h(18): note: see declaration of 'PositionClass'
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(128): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(128): error C2065: 'm_frameTime': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(130): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(130): error C2065: 'm_frameTime': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(132): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(132): error C2065: 'm_frameTime': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(137): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(137): error C2065: 'm_frameTime': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(139): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(141): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(146): error C2065: 'm_rotationY': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(149): error C2065: 'm_positionX': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(149): error C2065: 'm_leftSpeed': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(150): error C2065: 'm_positionZ': undeclared identifier
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(150): error C2065: 'm_leftSpeed': undeclared identifier
   main.cpp
+  inputclass.cpp
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\inputclass.cpp(305): error C2084: function 'bool InputClass::IsAPressed(void)' already has a body
+  c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\inputclass.cpp(292): note: see previous definition of 'IsAPressed'
+  graphicsclass.cpp
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\graphicsclass.cpp(52): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\graphicsclass.cpp(108): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
   Generating Code...
-  Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.exe
-  Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.pdb (Full PDB)
