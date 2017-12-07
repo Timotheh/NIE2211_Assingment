@@ -18,15 +18,13 @@ PositionClass::PositionClass()
 
 	m_forwardSpeed   = 0.0f;
 	m_backwardSpeed  = 0.0f;
-	m_leftSpeed = 0.0f;
-	m_rightSpeed = 0.0f;
 	m_upwardSpeed    = 0.0f;
 	m_downwardSpeed  = 0.0f;
 	m_leftTurnSpeed  = 0.0f;
 	m_rightTurnSpeed = 0.0f;
 	m_lookUpSpeed    = 0.0f;
 	m_lookDownSpeed  = 0.0f;
-	}
+}
 
 
 PositionClass::PositionClass(const PositionClass& other)
@@ -117,6 +115,7 @@ void PositionClass::MoveForward(bool keydown)
 	return;
 }
 
+<<<<<<< HEAD
 void PositionClass::Moveleft(bool keydown)
 {
 	float radians;
@@ -187,6 +186,8 @@ void PositionClass::MoveRight(bool keydown)
 	return;
 
 
+=======
+>>>>>>> parent of e885aa5... Assingment-v1.0
 
 void PositionClass::MoveBackward(bool keydown)
 {
@@ -280,8 +281,6 @@ void PositionClass::MoveDownward(bool keydown)
 
 	return;
 }
-
-
 
 
 void PositionClass::TurnLeft(bool keydown)

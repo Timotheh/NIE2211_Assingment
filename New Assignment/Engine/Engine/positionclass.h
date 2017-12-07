@@ -37,8 +37,11 @@ public:
 	void TurnRight(bool);
 	void LookUpward(bool);
 	void LookDownward(bool);
+<<<<<<< HEAD
 	void Moveleft(bool);
 	void MoveRight(bool);
+=======
+>>>>>>> parent of e885aa5... Assingment-v1.0
 
 private:
 	float m_positionX, m_positionY, m_positionZ;
@@ -46,7 +49,7 @@ private:
 
 	float m_frameTime;
 
-	float m_forwardSpeed, m_backwardSpeed, m_leftSpeed, m_rightSpeed;
+	float m_forwardSpeed, m_backwardSpeed;
 	float m_upwardSpeed, m_downwardSpeed;
 	float m_leftTurnSpeed, m_rightTurnSpeed;
 	float m_lookUpSpeed, m_lookDownSpeed;

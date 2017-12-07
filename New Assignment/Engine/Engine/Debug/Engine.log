@@ -1,4 +1,5 @@
 ﻿  systemclass.cpp
+<<<<<<< HEAD
   positionclass.cpp
 c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(192): error C2601: 'PositionClass::MoveBackward': local function definitions are illegal
   c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(156): note: this line contains a '{' which has not yet been matched
@@ -16,12 +17,22 @@ c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignmen
   c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(156): note: this line contains a '{' which has not yet been matched
 c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.cpp(156): fatal error C1075: the left brace '{' was unmatched at the end of the file
   main.cpp
+=======
+>>>>>>> parent of e885aa5... Assingment-v1.0
   inputclass.cpp
-c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\inputclass.cpp(305): error C2084: function 'bool InputClass::IsAPressed(void)' already has a body
-  c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\inputclass.cpp(292): note: see previous definition of 'IsAPressed'
   graphicsclass.cpp
+<<<<<<< HEAD
 c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\graphicsclass.cpp(52): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
 c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\graphicsclass.cpp(108): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
 c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\graphicsclass.cpp(334): error C2039: 'MoveLeft': is not a member of 'PositionClass'
   c:\users\u1660884\2211 games programming\github\nie2211_assingment\new assignment\engine\engine\positionclass.h(18): note: see declaration of 'PositionClass'
+=======
+e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(52): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+e:\nie2211 computer games studio 2\assingment\new assignment\engine\engine\graphicsclass.cpp(108): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
   Generating Code...
+  Compiling...
+  main.cpp
+>>>>>>> parent of e885aa5... Assingment-v1.0
+  Generating Code...
+  Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.exe
+  Engine.vcxproj -> E:\NIE2211 Computer Games Studio 2\Assingment\New Assignment\Engine\Debug\Engine.pdb (Full PDB)
