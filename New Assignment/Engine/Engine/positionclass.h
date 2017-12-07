@@ -37,7 +37,7 @@ public:
 	void TurnRight(bool);
 	void LookUpward(bool);
 	void LookDownward(bool);
-	void MoveLeft(bool);
+	void Moveleft(bool);
 	void MoveRight(bool);
 
 private:

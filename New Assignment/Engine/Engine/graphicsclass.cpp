@@ -174,6 +174,8 @@ bool GraphicsClass::Initialize(HINSTANCE hinstance, HWND hwnd, int screenWidth, 
 		return false;
 	}
 
+
+
 	return true;
 }
 

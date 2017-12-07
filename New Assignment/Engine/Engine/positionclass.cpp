@@ -152,6 +152,40 @@ void PositionClass::Moveleft(bool keydown)
 	return;
 }
 
+void PositionClass::MoveRight(bool keydown)
+{
+	float radians;
+
+
+	// Update the forward speed movement based on the frame time and whether the user is holding the key down or not.
+	if (keydown)
+	{
+		m_rightSpeed += m_frameTime * 0.001f;
+
+		if (m_rightSpeed > (m_frameTime * 0.03f))
+		{
+			m_rightSpeed = m_frameTime * 0.03f;
+		}
+	}
+	else
+	{
+		m_rightSpeed -= m_frameTime * 0.0007f;
+
+		if (m_rightSpeed < 0.0f)
+		{
+			m_rightSpeed = 0.0f;
+		}
+	}
+
+	// Convert degrees to radians.
+	radians = m_rotationY * 0.0174532925f;
+
+	// Update the position.
+	m_positionX += sinf(radians) * m_rightSpeed;
+	m_positionZ += cosf(radians) * m_rightSpeed;
+
+	return;
+
 
 
 void PositionClass::MoveBackward(bool keydown)
