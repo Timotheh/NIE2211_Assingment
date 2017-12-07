@@ -108,7 +108,7 @@ bool GraphicsClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 	}
 
 	// Initialize the second model object.
-	result = m_Model2->Initialize(m_D3D->GetDevice(), "../Engine/data/cube-ninjaHead.txt", L"../Engine/data/metal.dds");
+	result = m_Model2->Initialize(m_D3D->GetDevice(), "../Engine/data/cube-ninjaHead.txt", L"../Engine/data/stone.dds");
 	if(!result)
 	{
 		MessageBox(hwnd, L"Could not initialize the second model object.", L"Error", MB_OK);

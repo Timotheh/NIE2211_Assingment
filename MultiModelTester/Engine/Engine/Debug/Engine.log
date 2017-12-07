@@ -8,8 +8,8 @@
   lightclass.cpp
   inputclass.cpp
   graphicsclass.cpp
-d:\win8\win8 data and apps\17-18 works\nie2211 studio ii\semester 1\resources\week07\dx11tut45_winsdk\engine\engine\graphicsclass.cpp(35): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
-d:\win8\win8 data and apps\17-18 works\nie2211 studio ii\semester 1\resources\week07\dx11tut45_winsdk\engine\engine\graphicsclass.cpp(65): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\multimodeltester\engine\engine\graphicsclass.cpp(35): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+c:\users\u1660884\2211 games programming\github\nie2211_assingment\multimodeltester\engine\engine\graphicsclass.cpp(65): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
   DDSTextureLoader.cpp
   d3dclass.cpp
   cameraclass.cpp
@@ -17,5 +17,5 @@ d:\win8\win8 data and apps\17-18 works\nie2211 studio ii\semester 1\resources\we
   bumpmapshaderclass.cpp
   Generating Code...
 bumpmapshaderclass.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-  Engine.vcxproj -> D:\Win8\Win8 Data and Apps\17-18 Works\NIE2211 Studio II\Semester 1\Resources\Week07\dx11tut45_WinSDK\Engine\Debug\Engine.exe
-  Engine.vcxproj -> D:\Win8\Win8 Data and Apps\17-18 Works\NIE2211 Studio II\Semester 1\Resources\Week07\dx11tut45_WinSDK\Engine\Debug\Engine.pdb (Full PDB)
+  Engine.vcxproj -> C:\Users\u1660884\2211 Games Programming\GITHUB\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.exe
+  Engine.vcxproj -> C:\Users\u1660884\2211 Games Programming\GITHUB\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.pdb (Full PDB)
