@@ -1,2 +1,21 @@
-﻿  Engine.vcxproj -> C:\Users\u1660884\git\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.exe
+﻿  textureshaderclass.cpp
+  textureclass.cpp
+  systemclass.cpp
+  shadermanagerclass.cpp
+  modelclass.cpp
+  main.cpp
+  lightshaderclass.cpp
+  lightclass.cpp
+  inputclass.cpp
+  graphicsclass.cpp
+c:\users\u1660884\git\nie2211_assingment\multimodeltester\engine\engine\graphicsclass.cpp(35): warning C4316: 'D3DClass': object allocated on the heap may not be aligned 16
+c:\users\u1660884\git\nie2211_assingment\multimodeltester\engine\engine\graphicsclass.cpp(65): warning C4316: 'CameraClass': object allocated on the heap may not be aligned 16
+  d3dclass.cpp
+  cameraclass.cpp
+  bumpmodelclass.cpp
+  bumpmapshaderclass.cpp
+  Generating Code...
+  LINK : C:\Users\u1660884\git\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.exe not found or not built by the last incremental link; performing full link
+bumpmapshaderclass.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Engine.vcxproj -> C:\Users\u1660884\git\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.exe
   Engine.vcxproj -> C:\Users\u1660884\git\NIE2211_Assingment\MultiModelTester\Engine\Debug\Engine.pdb (Full PDB)
